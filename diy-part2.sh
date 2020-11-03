@@ -10,7 +10,6 @@
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
 
-git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverchan
 
 
 # Modify default IP
