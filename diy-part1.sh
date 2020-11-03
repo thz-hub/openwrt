@@ -17,4 +17,4 @@
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
-git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverchan
+sed -i '$a src-git luci-app-serverchan https://github.com/tty228' feeds.conf.default
